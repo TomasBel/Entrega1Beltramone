@@ -1,0 +1,12 @@
+{% extends "ProyectoCoder/padre.html" %}
+
+{% block titulo %}
+Buscar Profesores
+{% endblock %}
+
+{% block formulario %}
+    <form action="/ProyectoCoder/resultados/" method="GET">
+        <input type="text" name="nombre" id="nombre">
+        <input type="submit" value="Buscar">
+    </form>
+{% endblock %}
